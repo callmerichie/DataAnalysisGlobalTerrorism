@@ -12,8 +12,11 @@ weapons used.
 # World Terrorist Attacks 
 - yellows no victims
 - reds attacks with victims
-[unnamed-chunk-3-1.pdf](https://github.com/user-attachments/files/24173486/unnamed-chunk-3-1.pdf)
+
+<img width="480" height="384" alt="unnamed-chunk-3-1" src="https://github.com/user-attachments/assets/0e765533-260f-4c74-8e71-219856340c77" />
+
 
 
 # Victims during the years per region
-[unnamed-chunk-4-2.pdf](https://github.com/user-attachments/files/24173489/unnamed-chunk-4-2.pdf)
+
+<img width="480" height="384" alt="unnamed-chunk-4-2" src="https://github.com/user-attachments/assets/63c6d27b-1c3c-4967-b996-189b6c847832" />
