@@ -34,7 +34,8 @@ A simple wordcloud to show which state is suffering the most.
 
 # IRAQ’S WARS
 Iraq suffered more than 80.000 victims through the years. In the last twenty years they suffered two wars (during the 2003-2011 invasion and the ISIS proclamation of 2013-2017)<br>
-<img width="1500" height="1050" alt="unnamed-chunk-7-1" src="https://github.com/user-attachments/assets/19251482-5051-4d33-9898-dd119ceefde1" /><br>
+<img width="800" height="494" alt="two_wars" src="https://github.com/user-attachments/assets/3c199012-2cf4-424d-af8d-e478837b0414" />
+<br>
 These two recent conflicts brought:
 - 26.616 civilian victims in the IRAQ war plus 255 USA soldiers.
 - 53.336 civilian victims in the ISIS war plus 12 USA soldiers.
