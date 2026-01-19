@@ -10,13 +10,15 @@ macro regions and examining data by country, city, number of victims, terrorist 
 weapons used.
 
 # Global Terrorism
-The World situation seen by different points of view:
+The World situation seen by different points of view:<br>
 A Globe map 
 <img width="480" height="384" alt="unnamed-chunk-3-1" src="https://github.com/user-attachments/assets/0e765533-260f-4c74-8e71-219856340c77" /><br>
+
 Two different graphics (function and barplot) showing the casualties through the years
 <img width="480" height="384" alt="unnamed-chunk-4-2" src="https://github.com/user-attachments/assets/63c6d27b-1c3c-4967-b996-189b6c847832" /><br>
+
 Focusing on the regions
-<img width="720" height="432" alt="victims_per_region" src="https://github.com/user-attachments/assets/42b09a1d-9fe7-4da6-99d0-9a58c6efc5d9" />
+<img width="720" height="432" alt="victims_per_region" src="https://github.com/user-attachments/assets/42b09a1d-9fe7-4da6-99d0-9a58c6efc5d9" /><br>
 
 
 # Middle East & North Africa
