@@ -9,6 +9,9 @@ Conducted data analysis on global terrorism dataset obtained from Kaggle, focusi
 macro regions and examining data by country, city, number of victims, terrorist groups and
 weapons used.
 
+# Where does the data come from?
+From a free open source database maintained by researchers at the National Consortium for the Study of Terrorism and Responses to Terrorism (START), headquartered at the University of Maryland. The data shows information that spans from 1970 until 2019.The last update was on the 17th September of 2019 and the are currently three versions of the data set. During the merging of the data to the servers the Consortium lost all 1993’s data and other dates too. However they managed to recover all 1993’s missing data so I combined the two sets. 
+
 # Global Terrorism
 The World situation seen by different points of view:<br>
 A Globe map <br>
