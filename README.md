@@ -20,7 +20,8 @@ A Globe map<br>
 Two different graphics (function and barplot) showing the casualties through the years.<br>
 <img width="720" height="432" alt="frequency_chart" src="https://github.com/user-attachments/assets/06eaeb81-f797-4cde-9fdb-3d0bdf0c901e" /><br>
 
-<img width="480" height="384" alt="unnamed-chunk-4-2" src="https://github.com/user-attachments/assets/63c6d27b-1c3c-4967-b996-189b6c847832" /><br>
+<img width="1800" height="1200" alt="unnamed-chunk-4-2" src="https://github.com/user-attachments/assets/430d952f-4ed6-4959-be12-5c66e9900c6d" /><br>
+
 
 Focusing on the regions.<br>
 <img width="720" height="432" alt="victims_per_region" src="https://github.com/user-attachments/assets/42b09a1d-9fe7-4da6-99d0-9a58c6efc5d9" /><br>
