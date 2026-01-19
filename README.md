@@ -11,10 +11,12 @@ weapons used.
 
 # Global Terrorism
 The World situation seen by different points of view:<br>
-A Globe map 
+A Globe map <br>
 <img width="480" height="384" alt="unnamed-chunk-3-1" src="https://github.com/user-attachments/assets/0e765533-260f-4c74-8e71-219856340c77" /><br>
 
-Two different graphics (function and barplot) showing the casualties through the years
+Two different graphics (function and barplot) showing the casualties through the years<br>
+<img width="720" height="432" alt="frequency_chart" src="https://github.com/user-attachments/assets/06eaeb81-f797-4cde-9fdb-3d0bdf0c901e" /><br>
+
 <img width="480" height="384" alt="unnamed-chunk-4-2" src="https://github.com/user-attachments/assets/63c6d27b-1c3c-4967-b996-189b6c847832" /><br>
 
 Focusing on the regions
