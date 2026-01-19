@@ -54,7 +54,8 @@ Cities that had more than 100 victims. <br>
 These are the primary cities and towns have been hit by terrorism:
  - Baghdad has reached 21.394 fatalities.
  - Mosul has reached 7.279 fatalities.
-<img width="720" height="432" alt="middle_east_groups" src="https://github.com/user-attachments/assets/4237a2ff-be8a-4171-8f61-ac464548ca94" /><br>
+<br>
+<img width="900" height="600" alt="cities_years_middle" src="https://github.com/user-attachments/assets/25365688-252e-4e64-b119-4c27a4abb747" /><br>
 <img width="720" height="432" alt="web_cities_total" src="https://github.com/user-attachments/assets/8984f4ab-ccd5-46a8-a60b-bcd9648a5b70" /><br>
 
 # South Asia
