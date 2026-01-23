@@ -9,7 +9,22 @@ editor_options:
   chunk_output_type: inline    
 ---
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(cache = FALSE, message = FALSE, warning = FALSE)
+dir.create("figures", showWarnings = FALSE)
+
+
+knitr::opts_chunk$set(
+  cache = FALSE, 
+  message = FALSE, 
+  warning = FALSE,
+  
+  fig.path = "figures/",
+  dev = "png",
+  dpi = 150,
+  fig.width = 5,
+  fig.height = 4
+  
+  )
+
 ```
 ## <b>Where does the data come from?</b> 
 <p>From a free open source database maintained by researchers at the National Consortium for the Study of Terrorism and Responses to Terrorism (START), headquartered at the University of Maryland. The data shows information that spans from 1970 until 2019.The last update was on the 17th September of 2019 and the are currently three versions of the data set. During the merging of the data to the servers the Consortium lost all 1993's data and other dates too. However they managed to recover all 1993's missing data so I combined the two sets.</p>
@@ -20,11 +35,12 @@ library(readr)
 library(tibble)
 library(magrittr)
 library(dplyr)
-library(ggplot2) #graphics
-library(plotly) #graphics
+library(ggplot2) # graphics
+library(plotly) # graphics
 library(fmsb) #for radar graphics
-library(wordcloud)#for wordcloud graphics
-library(treemap)#fro treempas graphics
+library(wordcloud) #for wordcloud graphics
+library(treemap) #for treempas graphics
+
 #read the data
 terrorism <-read_excel("gtd1970_2019update.xlsx",1)
 #system.time(terrorism <-read_excel("gtd1970_2019update.xlsx",1))
@@ -123,8 +139,10 @@ isisus <-cbind(isisus,war="ISIS War")
 #sum(isisus$nkillus,na.rm = TRUE)=12
 #iraqusawar
 #isisus
+
 #combine two datasets
 iraqwar <-rbind(iraqusawar,isisus)
+
 #victims per war
 #aggregate(nkill~war,iraqusawar,sum)
 #aggregate(nkill~war,isisus,sum)
@@ -135,14 +153,22 @@ iraqwar <- iraqwar %>%
   mutate(prop = nkill / sum(iraqwar$nkill) *100) %>%
   mutate(ypos = cumsum(prop)- 0.5*prop )
 #piechart
-ggplot(iraqwar, aes(x="", y=prop, fill=war)) +
-  geom_bar(stat="identity", width=1, color="white") +
-  coord_polar("y", start=0) +
-  theme_void() + 
-  theme(legend.position="bottom") +
-  geom_text(aes(y = ypos, label = nkill), color = "black", size=2.5,nudge_x = 0.6,nudge_y = 0.5) +
-  scale_fill_brewer(palette="Set1") +
-  labs(title="Comparing the two wars",fill="Type of War:")
+#ggplot(iraqwar, aes(x="", y=prop, fill=war)) +
+ # geom_bar(stat="identity", width=1, color="white") +
+  # coord_polar("y", start=0) +
+  # theme_void() + 
+  # theme(legend.position="bottom") +
+  # geom_text(aes(y = ypos, label = nkill), color = "black", size=2.5,nudge_x = 0.6,nudge_y = 0.5) +
+  # scale_fill_brewer(palette="Set1") +
+  # labs(title="Comparing the two wars",fill="Type of War:")
+
+pie_chart <- plot_ly(iraqwar, labels = ~war, values = ~nkill, type = 'pie')
+pie_chart <- pie_chart %>% layout(title = 'Comparing the two wars',
+         xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+         yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+
+pie_chart
+
 ```
 <ul>These two recent conflicts brought:
   <li>26.616 civilian victims in the IRAQ war plus 255 USA soldiers.</li>
